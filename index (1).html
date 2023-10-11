@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Site</title>
+    <link rel="stylesheet" type="text/css" href="file:///W|/users/caua.saguirre/Downloads/style.css">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(245, 245, 241);
+    }
+
+    header {
+        background-color: rgb(245, 245, 241);
+        text-align: center;
+        padding: 20px;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header img {
+        max-width: 100%;
+    }
+
+    main {
+        background-color: rgb(245, 245, 241);
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        background-color: #001f3f;
+        color: white;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+        width: 30%;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav li {
+        margin-bottom: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+</style>
+<body>
+    <header>
+        <table>
+            <tr>
+                <img src="file:///W|/users/caua.saguirre/Downloads/logoibo.png" alt="Seu Logo">
+            </tr>
+            <hr>
+            <tr>
+                <img src="file:///W|/users/caua.saguirre/Downloads/salaibo.png" alt="Sua Imagem">
+            </tr>
+        </table>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <hr>
+                <li><a href="#">Início</a></li>
+                <hr>
+                <li><a href="#">Sobre</a></li>
+                <hr>
+                <li><a href="#">Serviços</a></li>
+                <hr>
+                <li><a href="#">Contato</a></li>
+                <hr>
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>
+
